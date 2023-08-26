@@ -1,6 +1,6 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
 
-import { cryptoApi } from '../services/cryptoAPI'
+import { cryptoApi } from '../services/cryptoApi'
 import { cryptoNewsApi } from '../services/cryptoNewsApi'
 
 export default configureStore({
